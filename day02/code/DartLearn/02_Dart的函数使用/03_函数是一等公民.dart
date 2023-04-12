@@ -1,3 +1,11 @@
+/*
+ * @Author: Sammer.Sun Sammer.Sun@gaiaworks.cn
+ * @Date: 2020-02-24 21:31:10
+ * @LastEditors: Sammer.Sun Sammer.Sun@gaiaworks.cn
+ * @LastEditTime: 2023-01-30 23:23:06
+ * @FilePath: /Flutter资料day01~23/day02/code/DartLearn/02_Dart的函数使用/03_函数是一等公民.dart
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 main(List<String> args) {
   // 1.直接找到另外一个定义的函数传进去
   // test(bar);
@@ -14,7 +22,9 @@ main(List<String> args) {
 
 // 函数可以作为另外一个函数的参数
 void test(Function foo) {
-  var result = foo();
+  // var result = foo();
+  foo();
+  bar();
 }
 
 
